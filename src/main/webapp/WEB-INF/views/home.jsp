@@ -9,7 +9,7 @@
 <body>
 
 <%@ include  file="/WEB-INF/views/Navbar/Navbar.jsp" %>
-<%-- <jsp:include page="./Navbar/Navbar.jsp" flush="false"></jsp:include> --%>
+
 
 
 </body>
