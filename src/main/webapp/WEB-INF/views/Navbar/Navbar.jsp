@@ -4,6 +4,14 @@
 </head>
 <body>
 
+<div id = "Sub__Menu">
+	<ul class = " Login">
+		<li class="Login__Item">로그인</li>
+		<li class="Login__Item">홈페이지</li>
+		<li class="Login__Item">회원가입</li>
+	</ul>
+</div>
+
 <div id = "Navbar">
 	<a class = "Navbar__Page" href="">
 	<img src="${pageContext.request.contextPath}/resources/Image/Main/Main.jpg" class= Navbar__Image>
@@ -15,6 +23,8 @@
 		</ul>
 	</div>
 </div>
+
+<div id = "Blank"></div>
 
 </body>
 </html>
