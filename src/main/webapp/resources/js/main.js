@@ -6,20 +6,7 @@
 // Menu 클릭 변수
 const Menu = document.querySelector('#Navbar');
 
-// 접속 방향성.
-let Visit = document.querySelector('#Page');
-
-// Page 전환시킬 DIV 값
-const Content = document.querySelector('.Content__Container');
-
-
-// Content에 요청에 따른 Include Value 표시.
-function VisiteInclude(item){
-	alert(item.target.dataset.value);
-	Visit.className(item.target.dataset.value);
-}
-
-// 메뉴 클릭시 해당 태그 데이터 추출
+// 메뉴 클릭시 URL 요청 및 파라미터 전달
 function OnClickMenu(item){
 	if(item == null){return};
 	window.location.href =`Page.do?value=${item.target.dataset.value}`;

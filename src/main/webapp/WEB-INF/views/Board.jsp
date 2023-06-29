@@ -13,5 +13,6 @@
 <!-- Achive 표 구성 (Kakaotalk 그림 참고) -->
 <%@ include file = "./Navbar/Navbar.jsp"%>
 Board
+
 </body>
 </html>
