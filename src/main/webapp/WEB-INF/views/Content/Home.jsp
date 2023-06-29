@@ -8,13 +8,8 @@
 </head>
 <body>
 
-<!-- Achive 표 구성 (Kakaotalk 그림 참고) -->
+<!-- Information 설명란 구성. -->
+Home
 
-<section id = "Record__Chart">
-	<div class="Record__Chart">
-		
-	</div>
-</section>
-Achive
 </body>
 </html>

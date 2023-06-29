@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-</head>
+    
 <body>
 
 <div id = "Sub__Menu">
@@ -20,6 +19,8 @@
 		<ul class="Menu__Items">
 			<li class="Menu__Item">이용 방법</li>
 			<li class="Menu__Item">기록실</li>
+			<li class="Menu__Item">게시판</li>
+			<li class="Menu__Item">고객센터</li>
 		</ul>
 	</div>
 </div>
@@ -27,4 +28,3 @@
 <div id = "Blank"></div>
 
 </body>
-</html>

@@ -4,17 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>곡 추가</title>
 </head>
 <body>
 
-<!-- Achive 표 구성 (Kakaotalk 그림 참고) -->
-
-<section id = "Record__Chart">
-	<div class="Record__Chart">
-		
-	</div>
-</section>
-Achive
 </body>
 </html>
