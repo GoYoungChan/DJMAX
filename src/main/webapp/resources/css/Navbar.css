@@ -41,15 +41,15 @@ ul{
 .Menu__Items {
 	width : 60%;
 	margin : 10px auto;
-	padding : 10px;
 	border-radius: 50px;
 	border : 1px solid pink;
-	border-radius: 50px;
+	padding: 0px;
 }
 
 .Menu__Item{
 	display:inline-block;
-	margin: 0 20px;
+	margin: 0px 20px;
+	padding : 10px 0px;
 	cursor: pointer;
 	font-size: 15px;
 	font-weight: normal;
@@ -59,7 +59,8 @@ ul{
 	border-style: none;
 	background-color: white;
 	cursor: pointer;
-	padding: 0px;
+	margin: 0px;
+	padding : 0px;
 }
 
 /* Blank CSS */

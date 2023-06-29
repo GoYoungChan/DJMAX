@@ -10,28 +10,29 @@ const Menu = document.querySelector('#Navbar');
 let Visit = document.querySelector('#Page');
 
 // Page 전환시킬 DIV 값
-let Content = document.querySelector('.Content__Container');
+const Content = document.querySelector('.Content__Container');
 
 
 // Content에 요청에 따른 Include Value 표시.
-function VisiteInclude(item){
-	
-}
+/*function VisiteInclude(item){
+	alert(item.target.dataset.value);
+
+	Visit.innerHTML(item.target.dataset.value);
+}*/
 
 // Include HTML 생성 ==> Include 태그 활용.
 function CreateHTMLString(content , item){
-	content.append(`<jsp:include page = '${item}'`);
+	content.remove();
+	content.append(`<jsp:include page = './${item.target.dataset.value}.jsp'`);
 }
 
 // 메뉴 클릭시 해당 태그 데이터 추출
 function OnClickMenu(item){
-	const data = item.target.dataset.value;
-	Visit.dataset.value = data;
-	CreateHTMLString(Content,data);
+	if(item == null){return};
+	
+	//CreateHTMLString(Content,item);
 }
 
 Menu.addEventListener('click',(event) =>{
-	let data = OnClickMenu(event);
-	VisiteInclude(data);
-	
+	Content.innerHTML = '123';
 });

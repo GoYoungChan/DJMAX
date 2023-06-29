@@ -3,6 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
+<%@ include file="../Include/IncludeCSS.jsp" %>
 <head>
 <meta charset="UTF-8">
 <title>기록실</title>

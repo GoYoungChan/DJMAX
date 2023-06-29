@@ -1,11 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<link href="${pageContext.request.contextPath}/resources/css/Navbar.css" rel="stylesheet">
-<script type = "text/javascript" src="${pageContext.request.contextPath}/resources/js/main.js" defer></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery-3.6.2.min.js"></script>
-<link rel="icon" type="image/jpg" href="${pageContext.request.contextPath}/resources/Image/Favicon.jpg">
-
 <body>
 <div id = "Sub__Menu">
 	<ul class = " Login">
