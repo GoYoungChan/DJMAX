@@ -21,14 +21,14 @@
 	</a>
 	<div class="Navbar__Menu">
 		<ul class="Menu__Items">
-			<li class="Menu__Item" data-value = "about">이용 방법</li>
-			<li class="Menu__Item" data-value = "none">
+			<li class="Menu__Item" data-value = "About">이용 방법</li>
+			<li class="Menu__Item" data-value = "None">
 				<form action = "Record.do" method="get">
 					<input class ="Menu__Item Record" type="submit" value = "기록실">
 				</form>
 			</li>
-			<li class="Menu__Item" data-value = "board">게시판</li>
-			<li class="Menu__Item" data-value = "service">고객센터</li>
+			<li class="Menu__Item" data-value = "Board">게시판</li>
+			<li class="Menu__Item" data-value = "Service">고객센터</li>
 		</ul>
 	</div>
 </div>
