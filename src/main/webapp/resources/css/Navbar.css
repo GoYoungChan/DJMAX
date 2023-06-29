@@ -51,9 +51,26 @@ ul{
 	display:inline-block;
 	margin: 0 20px;
 	cursor: pointer;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.Record {
+	border-style: none;
+	background-color: white;
+	cursor: pointer;
+	padding: 0px;
 }
 
 /* Blank CSS */
 #Blank {
 	height : 10px;
 }
+
+/*  Content Paging Variable */
+#Page {
+	display: none;
+}
+
+
+

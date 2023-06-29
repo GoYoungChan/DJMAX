@@ -1,0 +1,13 @@
+@charset "UTF-8";
+:root {
+	--color-gray : #6e6e6e;
+}
+/*  */
+
+.Content__Container {
+	border-width: 1px;
+	border-radius : 10px;
+	border-color : var(--color-gray);
+	width : 60%;
+	margin: 50px;
+}

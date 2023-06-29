@@ -14,4 +14,10 @@ public class AchiveController {
 		return mav;
 	}
 	
+	// 기록실 페이지 이동.
+	@RequestMapping(value = "Record.do")
+	public ModelAndView Record(ModelAndView mav) {
+		mav.setViewName("Content/Achive");
+		return mav;
+	}
 }
