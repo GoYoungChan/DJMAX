@@ -14,25 +14,17 @@ const Content = document.querySelector('.Content__Container');
 
 
 // Content에 요청에 따른 Include Value 표시.
-/*function VisiteInclude(item){
+function VisiteInclude(item){
 	alert(item.target.dataset.value);
-
-	Visit.innerHTML(item.target.dataset.value);
-}*/
-
-// Include HTML 생성 ==> Include 태그 활용.
-function CreateHTMLString(content , item){
-	content.remove();
-	content.append(`<jsp:include page = './${item.target.dataset.value}.jsp'`);
+	Visit.className(item.target.dataset.value);
 }
 
 // 메뉴 클릭시 해당 태그 데이터 추출
 function OnClickMenu(item){
 	if(item == null){return};
-	
-	//CreateHTMLString(Content,item);
+	window.location.href =`Page.do?value=${item.target.dataset.value}`;
 }
 
 Menu.addEventListener('click',(event) =>{
-	Content.innerHTML = '123';
+	OnClickMenu(event);
 });
