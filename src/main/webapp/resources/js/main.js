@@ -1,13 +1,6 @@
 'use strict';
 
 
-const clickOne = document.querySelector(`.Login`);
 
-clickOne.addEventListener('click',() => {
-	test();
-	
-})
-
-function test(){
-	console.log(location.href);
-}
+// 기존에 로그인이 됐는지 확인.
+CheckLogin();
