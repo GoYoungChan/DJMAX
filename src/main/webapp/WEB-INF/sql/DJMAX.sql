@@ -28,6 +28,17 @@ create table test1 (
 	constraint test1_pk primary key(name)
 )
 
+create table nightmare (
+name varchar2(30),
+nm4 number(10,2),
+hd4 number(10,2),
+constraint song_pk primary key(name)
+)
+
+drop table nightmare;
+
+select * from nightmare;
+delete nightmare;
 create table test2 (
 	name varchar2(20),
 	num1 number(5),

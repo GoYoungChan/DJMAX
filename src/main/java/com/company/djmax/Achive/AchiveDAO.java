@@ -11,6 +11,8 @@ public class AchiveDAO {
 	JdbcTemplate jdbcTemplate;
 	
 	public void insert() {
-		
+		String song = "nightmare";
+		jdbcTemplate.update("insert into "+song+" values(?,?,?)",song,99.86,99.67);
+		System.out.println("데이터 저장 성공.");
 	}
 }
