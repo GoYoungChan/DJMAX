@@ -27,7 +27,7 @@ create table test1 (
 	num2 number(5),
 	constraint test1_pk primary key(name)
 )
-
+/* nightmare 라는 곡의 테이블 생성 및 구조 -> 첫 컬럼 : 유저명 , 그 이후로는 모든 Key의 난이도를 생성. */
 create table nightmare (
 name varchar2(30),
 nm4 number(10,2),
