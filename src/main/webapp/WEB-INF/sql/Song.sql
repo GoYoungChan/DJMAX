@@ -1,6 +1,8 @@
 /* 곡 이름 , 각 난이도별 존재시 난이도 표기 존재 안할 시 -> 0으로 표시. */
 /* 값 입력 안했을 시 -> 0으로 자동 설정. */
 
+drop table Song purge;
+
 create table Song (
 Song_name varchar2(50),
 nm4 number(2) default 0,
@@ -22,6 +24,3 @@ sc8 number(2) default 0,
 constraint Song__PK primary key(Song_name)
 )
 
-drop table Song purge;
-
-alter table Song add nm4 number(2)
