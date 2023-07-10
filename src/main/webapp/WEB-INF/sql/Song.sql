@@ -24,3 +24,4 @@ sc8 number(2) default 0,
 constraint Song__PK primary key(Song_name)
 )
 
+select * from test;

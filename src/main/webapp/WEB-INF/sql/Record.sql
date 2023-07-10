@@ -19,3 +19,6 @@ mx number(10,2),
 sc8 number(10,2),
 constraint song_pk primary key(name)
 )
+select * from test;
+select * from test123;
+commit;

@@ -14,4 +14,8 @@ public class AchiveServiceImp implements AchiveService {
 		dao.insert();
 	}
 
+	@Override
+	public void create() {
+		//dao.createTable();
+	}
 }
