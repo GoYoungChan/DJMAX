@@ -4,5 +4,5 @@ public interface AchiveService {
 
 	public void insert();
 	
-	public void create();
+	public void create(String name);
 }

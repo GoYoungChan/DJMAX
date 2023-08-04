@@ -24,4 +24,27 @@ sc8 number(2) default 0,
 constraint Song__PK primary key(Song_name)
 )
 
-select * from test;
+select * from Song;
+
+create table Song_Children (
+Songname varchar2(50),
+Level1 number(2),
+constraint abcd foreign key(Songname) references Song(Song_name) on delete cascade
+)
+
+
+create table parentpk (
+parent_name varchar2(20),
+test varchar2(20),
+constraint parentpk_pk primary key(parent_name)
+)
+
+create table childrenpk (
+name varchar2(20),
+age number(10,2),
+constraint childrenpk_pk foreign key(name) references parentpk(parent_name) on delete cascade
+)
+drop table childrenpk purge;
+drop table parentpk purge;
+
+select * from test1234;

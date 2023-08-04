@@ -8,10 +8,9 @@ public class DaoSqlClass {
 		return "insert into Song values()";
 	}
 	
-	
 	// Table Create Success.
 	public String createRecord(String name) {
-		return  "create table "+name+" ("
+		return  "create table "+name+"("
 				+ "User_name varchar2(30),"
 				+ "nm4 number(10,2),"
 				+ "hd4 number(10,2),"

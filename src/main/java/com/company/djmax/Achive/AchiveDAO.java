@@ -12,18 +12,17 @@ public class AchiveDAO {
 	
 	DaoSqlClass sql = new DaoSqlClass();
 	
+// When Song name Data have, User Data Insert.
 	public void insert() {
 		String song = "nightmare";
 		jdbcTemplate.update("insert into "+song+" values(?,?,?)",song,99.86,99.67);
 		System.out.println("데이터 저장 성공.");
 	}
 	
-	/*
-	public void createTable() {
-		String name = "test123";
-		jdbcTemplate.update(sql.insertName(name));
-		int i = jdbcTemplate.update(sql.createRecord(name));
-		jdbcTemplate.update("commit;");
-		System.out.println(i);
-	}*/
+// Song Table Auto Created
+	public void createTable(String name) {
+		
+		jdbcTemplate.update(sql.createRecord(name));
+		jdbcTemplate.update("commit");
+	}
 }

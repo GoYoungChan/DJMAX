@@ -37,7 +37,7 @@ public class AchiveController {
 	// 일반 Navbar 페이지 이동.
 	@RequestMapping(value = "Page.do")
 	public ModelAndView Page(ModelAndView mav, HttpServletRequest request) {
-		achiveService.create();
+		//achiveService.create();
 		//achiveService.insert();
 		String view = request.getParameter("value");
 		mav.setViewName(view);
